@@ -118,7 +118,6 @@ color: var(--Iris);
 	color: var(--White);
 }
 .hero-button {
-	border-radius: 4px;
 	border: none;
 	font-family: var(--FontFamily);
 	font-weight: 500;
@@ -159,18 +158,21 @@ color: var(--Iris);
 	background-color: var(--Cloud);
 }
 .team-title {
+	text-transform: capitalize;
+	letter-spacing: 0.02em;
 }
-.hero_list {
+.team-list {
 }
-.list-hero {
+.list-team {
 }
-.list-hero_item {
+.list-team-item {
+	background-color: var(--White);
 }
-.list-hero_image {
+.list-team-image {
 }
-.list-hero_title {
+.list-team-title {
 }
-.list-hero_descr {
+.list-team-descr {
 }
 .portfolio {
 }
