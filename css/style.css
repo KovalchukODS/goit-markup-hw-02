@@ -17,7 +17,7 @@
 }
 
 body{
-	font-family: 'Roboto', 'Raleway',sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -46,6 +46,7 @@ a {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
+	letter-spacing: 0.02em;
 	color: var(--NavyBlue);
 }
 
@@ -56,10 +57,10 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--NavyBlue);
+color: var(--Iris);
 }
 .logo-web{
-	color: var(--Iris);
+	color: var(--NavyBlue);
 }
 .header{
 }
@@ -91,13 +92,14 @@ color: var(--NavyBlue);
 .header-contacts {
 }
 .contacts {
+	font-style: normal;
 }
 .contacts-list {
 }
 .contacts-item {
 }
 .contacts-link {
-	font-style: normal;
+	
 }
 .contacts-link:hover, .contacts-link:focus{
 	color: var(--Ocean);
@@ -117,10 +119,7 @@ color: var(--NavyBlue);
 }
 .hero-button {
 	border-radius: 4px;
-	padding: 16px 32px;
-	height: 56px;
 	border: none;
-	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 	font-family: var(--FontFamily);
 	font-weight: 500;
 	font-size: 16px;
@@ -129,7 +128,7 @@ color: var(--NavyBlue);
 	color: var(--White);
 	background-color: var(--Iris);
 }
-.hero-button:hover{
+.hero-button:hover, .hero-button:focus{
 	background-color: var(--Ocean);
 }
 .button-order {
@@ -143,7 +142,6 @@ color: var(--NavyBlue);
 .features-title {
 }
 .hidden {
-	display: none;
 }
 .features-list {
 }
@@ -177,6 +175,7 @@ color: var(--NavyBlue);
 .portfolio {
 }
 .portfolio-title {
+	text-transform: capitalize;
 }
 .portfolio-list {
 }
