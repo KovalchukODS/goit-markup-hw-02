@@ -38,6 +38,7 @@ a {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
+	letter-spacing: 0.02em;
 	text-align: center;
 	color: var(--NavyBlue);
 }
@@ -61,6 +62,9 @@ color: var(--Iris);
 }
 .logo-web{
 	color: var(--NavyBlue);
+}
+.logo-cloud{
+	color: var(--Cloud);
 }
 .header{
 }
@@ -159,7 +163,6 @@ color: var(--Iris);
 }
 .team-title {
 	text-transform: capitalize;
-	letter-spacing: 0.02em;
 }
 .team-list {
 }
@@ -194,7 +197,7 @@ color: var(--Iris);
 .footer {
 	background-color: var(--NavyBlue);
 }
-.footer_logo {
+.footer-logo {
 }
 .footer_descr {
 	color: var(--Cloud);
